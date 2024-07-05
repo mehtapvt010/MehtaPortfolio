@@ -1,0 +1,120 @@
+/*
+filename: cabin.css
+coded by: Shivang Mehta
+*/
+
+body{background-image: linear-gradient(to bottom, #4499bb, #c2e0f0, #3697ca);
+  color: #221811;
+  font-family: Verdana, Arial, sans-serif;}
+
+h1{background-color: #E7BB9E;
+  background-image: url("../sunset.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-left: 1em;
+  height: 72px;
+  color: #631;
+  font-family: georgia, serif;
+  line-height: 200%;
+  margin-bottom: 0;}
+
+nav{font-weight: bold;
+  float: left;
+  width: 170px;
+}
+
+nav ul{
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1em;
+}
+
+h2{color: #654321;
+}
+
+dt{color: #003; font-weight: 900;}
+
+.resort{color: #603; /*example of a class*/
+  font-size: 1.2em;
+}
+
+footer{font-size: 0.70em; /*We need to keep it smaller than other text*/
+  font-style: italic; 
+  text-align: center;
+  padding: 1em;
+  background-color: #FFFFFF;
+  margin-left: 180px;
+  padding: 0.9em;
+}
+
+#wrapper{ margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          background-color: #EBD3AB;
+          max-width: 1024px;
+          box-shadow: 4px 4px 4px #444444;
+}  /*This helps get the webpage wrapped towards the centre */
+
+h3{color: #002;
+}
+
+main{padding-left: 2em;
+  padding-right: 2em;
+  float: right;
+  background-color: #FFFFEE;
+  margin-left: 180px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+#homehero{height: 300px;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-image: url("../coast.jpg");
+  margin-left: 180px;
+}
+
+#cabinshero{height: 300px;
+  background-image: url("../cabins.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left: 180px;
+}
+
+#trailshero{height: 300px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../trail.jpg");
+  margin-left: 180px;
+}
+
+a{
+  text-decoration: none;
+  line-height: 1.4em;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+header, nav, main, footer {
+  display: block;
+}
+
+a:hover{
+  color: #FFFFFF;
+}
+
+a:default{
+  color: #000011;
+}
+
+a:visited{
+  color: #344873;
+}
+

@@ -1,0 +1,260 @@
+body{
+  text-align: center;
+  background-image: linear-gradient(to bottom, 	orange, #803a12, #4b1914 );
+  color: antiquewhite;
+}
+
+h1{
+  margin-top: 0;
+  padding-top: 25px;
+  text-align: center;
+  background-image: url(../logo.jpg);
+  background-position: 0 -17px;
+  min-height: 80px;
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+nav{
+  flex-basis:10%;
+  min-height: 100px;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  background-color: burlywood;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  order: 1;
+}
+
+main{
+  
+  padding-right: 30px;
+  flex-basis: 80%;
+  order: 2;
+}
+
+nav li{
+  text-align: left;
+  list-style: none;
+  padding: 50px 30px 50px 0;
+  font-size: 22px;
+}
+
+main ul, dl{
+  display: flex;
+  list-style: none;
+  font-size: 24px;
+  flex-wrap: wrap;
+}
+
+main li, main p, #box1, #box2, #box3, dt{
+  border: 2px whitesmoke;
+  border-style: solid;
+}
+
+main dd{
+  margin-right: 25px;
+}
+
+main dl{
+  margin-left: 30px;
+}
+
+#member1, #member2, #member3, #member4{
+  flex: 1;
+  padding: 10px;
+  margin: 0 10px 0 0;
+}
+
+#box1, #box2, #box3{
+  flex: 1;
+  padding: 10px;
+  margin: 0 10px 0 10px;
+}
+
+
+footer{
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+}
+
+a:link{
+  color: darkblue;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: purple;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #c78710;
+  text-decoration: underline;
+}
+
+a:active{
+  text-decoration: none;
+  color: red;
+}
+
+.members{
+  height: 220px;
+  width: 300px;
+  padding-top: 0;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+.best{
+  font-size: 25px;
+}
+
+#boxes{
+  display: flex;
+}
+
+.display{
+  display: flex;
+}
+
+#news{
+  flex-basis: 10%;
+  order: 3;
+  background-color: burlywood;
+  color: black;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.new{
+  background-color: yellow;
+}
+
+.newsfeedlist{
+  padding-right: 20px;
+}
+
+.link{
+  font-size: 30px;
+  margin-left: 30px;
+  background-color: burlywood;
+  color: black;
+}
+
+.backtohome{
+  background-color: burlywood;
+  color: black;
+  line-height: 30px;
+  font-size: large;
+}
+
+@media(max-width: 800px)
+{
+  body{
+    text-align: center;
+    background-image: linear-gradient(to bottom, 	orange, #803a12, #4b1914 );
+    color: antiquewhite;
+  }
+  
+  h1{
+    margin-top: 0;
+    padding-top: 25px;
+    text-align: center;
+    background-image: url(../logo.jpg);
+    background-position: 0 -17px;
+    min-height: 80px;
+    font-size: 40px;
+    color: whitesmoke;
+  }
+
+  .display{
+    display: block;
+  }
+  
+  main ul, dl{
+    display: block;
+    list-style: none;
+    font-size: 24px;
+  }
+
+  nav{
+    max-height: 820px;
+    display: block;
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    
+  }
+
+  nav li{
+    text-align: center;
+    list-style: none;
+    padding: 10px 30px 10px 0;
+    font-size: 22px;
+  }
+}
+@media(max-width: 468px)
+{
+  body{
+    text-align: center;
+    background-image: linear-gradient(to bottom, 	orange, #803a12, #4b1914 );
+    color: antiquewhite;
+  }
+  
+  h1{
+    margin-top: 0;
+    padding-top: 25px;
+    text-align: center;
+    background-image: url(../logo.jpg);
+    background-position: 0 -17px;
+    min-height: 80px;
+    font-size: 40px;
+    color: whitesmoke;
+  }
+
+  .display{
+    display: block;
+  }
+  
+  main ul, dl{
+    display: block;
+    list-style: none;
+    font-size: 24px;
+
+  }
+
+  main ul{
+    margin-right: 30px;
+  }
+
+  nav{
+    max-height: 820px;
+    display: block;
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    
+  }
+
+  nav li{
+    text-align: center;
+    list-style: none;
+    padding: 10px 30px 10px 0;
+    font-size: 22px;
+  }
+
+  .members{
+    display: none;
+  }
+}

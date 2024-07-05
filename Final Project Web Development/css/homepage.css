@@ -1,0 +1,868 @@
+body {
+  background-image: url(../navbg1.jpg);
+  background-size: cover;
+  background-color: rgb(29, 28, 28);
+  background-position: 60%;
+}
+
+#wrapper {
+  overflow: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  max-width: 1500px;
+}
+
+#wrap {
+  display: flex;
+  border: solid whitesmoke 1px;
+}
+
+#weapons a {
+  color: orange;
+}
+
+nav {
+  flex-basis: 15%;
+  background-color: black;
+  min-height: 100%;
+  background-color: #1A2F35;
+  /*background-image: url(../navbg1.jpg);*/
+  background-size: 100% 100%;
+  border: 1px whitesmoke solid;
+}
+
+#area {
+  flex-basis: 85%;
+  /*background-image: url(../back.jpg);*/
+  /*background-color: #1A2F35;*/
+  background-color: #4A4C4B;
+  background-size: 100% 100%;
+  color: azure;
+}
+
+#intro_img {
+  height: 300px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../intro.jpg");
+
+}
+
+#intro_img1 {
+  height: 300px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../recent_intro.jpg");
+
+}
+
+#intro_img2 {
+  height: 300px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../characters_intro.jpg");
+
+}
+
+#intro_img_about {
+  height: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../about.jpg");
+
+}
+
+#intro_img_seasons {
+  height: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../seasons_intro.jpg");
+
+}
+
+#intro_img_about {
+  height: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../about.jpg");
+
+}
+
+#intro_img_fans {
+  height: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../fans_intro.jpg");
+
+}
+
+#target_image {
+  height: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../target_imaage.jpg");
+  margin-top: 20px;
+
+}
+
+#thanks_head {
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#baby_header {
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#weapons_header {
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#thanks {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#homepage {
+  color: orange;
+}
+
+#about_image_2 {
+  height: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../about_image_2.jpg");
+  margin-top: 20px;
+}
+
+#baby_image {
+  height: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../baby.jpg");
+  margin-top: 20px;
+}
+
+#weapons_image1 {
+  height: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../weapons1.jpg");
+  margin-top: 20px;
+}
+
+#baby_intro {
+  text-align: center;
+}
+
+#weapons_intro {
+  text-align: center;
+}
+
+#author {
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#target {
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#about_intro {
+  text-align: center;
+}
+
+#site {
+  text-align: center;
+}
+
+/*Main Content Formatting*/
+
+main {
+  /*background-image: url(../back.jpg);*/
+
+  background-size: 100% 100%;
+  font-size: large;
+  border: 1px whitesmoke solid;
+}
+
+#chars {
+  display: flex;
+}
+
+#dean {
+  display: block;
+  flex-basis: 50%;
+  text-align: center;
+  border: solid 1px whitesmoke;
+}
+
+#sam {
+  display: block;
+  flex-basis: 50%;
+  text-align: center;
+  border: solid 1px whitesmoke;
+}
+
+#dean_media1 {
+  display: flex;
+}
+
+#dean_media2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#dean .img1 {
+  flex-basis: 50%;
+  background-image: url(../dean.jpg);
+  height: 300px;
+  width: 200px;
+  background-size: 100% 100%;
+  margin: 20px;
+}
+
+#sam .img1 {
+  flex-basis: 50%;
+  background-image: url(../sam.jpg);
+  height: 300px;
+  width: 200px;
+  background-size: 100% 100%;
+  margin: 20px;
+}
+
+#dean .quote1 {
+  flex-basis: 50%;
+  font-style: italic;
+  font-size: xx-large;
+  text-align: center;
+  justify-content: center;
+}
+
+.dean_quote {
+  margin-top: 100px;
+}
+
+#sam .quote1 {
+  flex-basis: 50%;
+  font-style: italic;
+  font-size: xx-large;
+  text-align: center;
+  justify-content: center;
+}
+
+#sam_media1 {
+  display: flex;
+}
+
+#sam_media2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#logo {
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+  max-width: 1468px;
+  background-color: black;
+  background-size: 20% 100%;
+  border: 1px whitesmoke solid;
+}
+
+#logo_top {
+  margin-left: 15%;
+  height: 200px;
+  width: 30%;
+}
+
+ul {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 2em;
+  padding-left: 0;
+
+}
+
+#navigation li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+#navigation a {
+  color: azure;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px 20px 0 20px;
+}
+
+#lyrics {
+  text-align: center;
+  padding: 10px;
+  font-size: x-large;
+}
+
+#introduction {
+  text-align: center;
+  padding: 0 20px 0 20px;
+  font-size: x-large;
+}
+
+.eras {
+  text-align: center;
+}
+
+footer {
+  float: left;
+  text-align: center;
+  font-size: large;
+  font-style: italic;
+  color: azure;
+  width: 100%;
+  border: whitesmoke 1px solid;
+}
+
+#crowley_media {
+  display: flex;
+}
+
+#castiel_media {
+  display: flex;
+}
+
+#bobby_media {
+  display: flex;
+}
+
+#jack_media {
+  display: flex;
+}
+
+.char_intro {
+  text-align: center;
+  font-size: x-large;
+}
+
+.char_description {
+  text-align: center;
+  font-size: large;
+}
+
+#crowley_image {
+  flex-basis: 50%;
+  background-image: url(../crowley_image.jpg);
+  height: 300px;
+  background-size: 100% 100%;
+  margin: 5%;
+}
+
+#castiel_image {
+  flex-basis: 50%;
+  background-image: url(../castiel_image.jpg);
+  height: 300px;
+  background-size: 100% 100%;
+  margin: 5%;
+}
+
+#bobby_image {
+  flex-basis: 50%;
+  background-image: url(../bobby_image.jpg);
+  height: 300px;
+  background-size: 100% 100%;
+  margin: 5%;
+}
+
+#jack_image {
+  flex-basis: 50%;
+  background-image: url(../jack_image.jpg);
+  height: 300px;
+  background-size: 100% 100%;
+  margin: 5%;
+}
+
+#crowley_video {
+  flex-basis: 50%;
+  height: 300px;
+  background-size: 100% 100%;
+  margin: 5%;
+}
+
+#castiel_video {
+  flex-basis: 50%;
+  height: 300px;
+  background-size: 100% 100%;
+  margin: 5%;
+}
+
+#bobby_video {
+  flex-basis: 50%;
+  height: 300px;
+  background-size: 100% 100%;
+  margin: 5%;
+}
+
+#jack_video {
+  flex-basis: 50%;
+  height: 300px;
+  background-size: 100% 100%;
+  margin: 5%;
+}
+
+#other1,
+#other2 {
+  display: flex;
+}
+
+#char1,
+#char2,
+#char3,
+#char4,
+#char5,
+#char6,
+#weapon1,
+#weapon2,
+#weapon3,
+#weapon4,
+#weapon5,
+#weapon6 {
+  flex-basis: 33.33%;
+  text-align: center;
+  height: 300px;
+  background-size: 100% 100%;
+  margin: 2%;
+  border: whitesmoke 1px solid;
+}
+
+#char1 {
+  background-image: url(../rowena_image.jpg);
+}
+
+#char2 {
+  background-image: url(../billy_image.jpg);
+}
+
+#char3 {
+  background-image: url(../death_supernatural.jpg);
+}
+
+#char4 {
+  background-image: url(../chuck_supernatural.jpg);
+}
+
+#char5 {
+  background-image: url(../amara_supernatural.jpg);
+}
+
+#char6 {
+  background-image: url(../lucifer_image.jpg);
+}
+
+#weapon1 {
+  background-image: url(../colt.webp);
+}
+
+#weapon2 {
+  background-image: url(../angelblades.webp);
+}
+
+#weapon3 {
+  background-image: url(../salt.webp);
+}
+
+#weapon4 {
+  background-image: url(../firstblade.webp);
+}
+
+#weapon5 {
+  background-image: url(../equalizer.webp);
+}
+
+#weapon6 {
+  background-image: url(../scythe.webp);
+}
+
+#era_img1 {
+  background-image: url(../kripke_era.jpg);
+  height: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  background-size: 100% 100%;
+
+  border: whitesmoke 1px solid;
+}
+
+#era_img2 {
+  background-image: url(../gamble_era.jpg);
+  height: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  background-size: 100% 100%;
+
+  border: whitesmoke 1px solid;
+}
+
+#era_img3 {
+  background-image: url(../singercarver_era.jpg);
+  height: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  background-size: 100% 100%;
+
+  border: whitesmoke 1px solid;
+}
+
+#era_img4 {
+  background-image: url(../singerdabb_era.jpg);
+  height: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  background-size: 100% 100%;
+
+  border: whitesmoke 1px solid;
+}
+
+.era_info {
+  text-align: center;
+}
+
+#newsletter_section {
+  border-bottom: solid 2px black;
+}
+
+
+#newsletter {
+  width: 60%;
+  margin: 20px 20% 20px 20%;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+form {
+  min-width: 60%;
+  margin: 20px 20% 20px 20%;
+  text-align: left;
+  flex-flow: column;
+  border: solid 2px black;
+}
+
+#supply {
+  font-weight: 700;
+  margin: 5px 30px 30px 30px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+input{
+  color: whitesmoke;
+  background-image: url(../bg.jpg);
+  margin-bottom: 1em;
+  
+  min-width: 20%;
+  text-align: left;
+}
+
+#submit {
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  color: black;
+  background-image: url(../bgheading.jpg);
+  margin: auto 40% 20px 40%;
+  min-width: 20%;
+  height: 40px;
+  margin-top: 10px;
+}
+
+#spinoff {
+  margin-left: 25%;
+  width: 50%;
+  height: 300px;
+}
+
+.news_heading {
+  text-align: center;
+}
+
+#news1,
+#news2 {
+  border-bottom: solid whitesmoke 1px;
+}
+
+.source {
+  color: orange;
+}
+
+#survey {
+  text-align: center;
+}
+
+#fans_thanks {
+  text-align: center;
+}
+
+.fans_links {
+  color: orange;
+}
+
+#survey1 {
+  text-align: center;
+}
+
+label {
+  margin-left: 10%;
+}
+
+form {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 70%;
+  padding: 5%;
+  text-align: center;
+}
+
+/*For Table*/
+
+
+.pop_table {
+  text-align: center;
+  min-width: 90%;
+  border-collapse: collapse;
+  font-size: 1.1em;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.pop_table thead th {
+
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+
+}
+
+.pop_table tbody td {
+  color: whitesmoke;
+}
+
+.pop_table th,
+.pop_table td {
+  padding: 20px;
+  font-size: large;
+}
+
+.pop_table tbody tr td {
+  border: 1px none black;
+}
+
+.pop_table tbody tr:nth-of-type(even) td {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.pop_table tbody tr:last-of-type {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+/*Pseudo Links*/
+
+nav #navigation li a:link {
+  color: orange;
+  text-decoration: underline;
+}
+
+nav #navigation li a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+nav #navigation li a:hover {
+  background: rgb(255, 94, 0);
+}
+
+nav #navigation li a:active {
+  text-decoration: none;
+}
+
+#table_title{
+  padding: 10px;
+  text-align: center;
+}
+
+#survey_form{
+  text-align: left;
+}
+
+/*For Tablet Responsiveness*/
+@media screen and (max-width: 1468px) {
+
+
+  #wrap {
+    display: block;
+    border: solid whitesmoke 1px;
+  }
+
+
+  nav ul {
+    width: 100%;
+    display: inline-flex;
+    font-size: medium;
+  }
+
+  nav ul li {
+    flex-basis: 16.66%;
+  }
+
+  #wrapper {
+    overflow: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    max-width: 1468px;
+  }
+
+  #logo_top {
+    margin-left: 0;
+    height: 200px;
+    width: 30%;
+  }
+
+}
+
+/*For Mobile Responsiveness*/
+@media screen and (max-width: 936px) {
+
+  nav ul {
+    width: 100%;
+    display: block;
+    font-size: medium;
+  }
+
+  nav ul li {
+    border: whitesmoke solid 1px;
+  }
+
+  #dean_media1 {
+    display: block;
+  }
+
+  #dean_media2 {
+    display: block;
+  }
+
+  #sam_media1 {
+    display: block;
+  }
+
+  #sam_media2 {
+    display: block;
+  }
+
+  #dean .img1 {
+    width: 70%;
+    margin: 0 15% 0 15%;
+  }
+
+  #sam .img1 {
+    width: 70%;
+    margin: 0 15% 0 15%;
+  }
+
+  /*Centering Images and Not Displaying Videos*/
+  #bobby_video {
+    display: none;
+  }
+
+  #castiel_video {
+    display: none;
+  }
+
+  #crowley_video {
+    display: none;
+  }
+
+  #jack_video {
+    display: none;
+  }
+
+  #bobby_image {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+
+  #castiel_image {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+
+  #crowley_image {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+
+  #jack_image {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+
+
+}
+
+.div1 {
+  color: #ffffff;
+
+}
